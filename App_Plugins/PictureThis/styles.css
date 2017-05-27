@@ -1,0 +1,16 @@
+﻿.picture-this-image {
+    position:relative;
+}
+
+.picture-this-image img {
+    margin:0 auto;
+    display:block;
+}
+
+.picture-this-button {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+

@@ -1,0 +1,9 @@
+﻿{   
+    javascript: [ 
+        '~/App_Plugins/picturethis/controller.js',
+        '~/App_Plugins/picturethis/service.js'
+    ],
+    css: [
+		'~/App_Plugins/picturethis/styles.css'
+    ]
+}

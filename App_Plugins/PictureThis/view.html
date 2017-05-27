@@ -1,0 +1,17 @@
+﻿<div class="umb-panel" ng-controller="pictureThisCtrl as vm">
+    <div class="umb-dashboard-grid">
+        <umb-editor-view footer="true">
+            <umb-editor-container>
+                <div class="picture-this-image">
+                    <img ng-src="{{ vm.image }}" />
+                    <button ng-click="vm.setImage()" class="btn picture-this-button">Edit</button>
+                </div>
+            </umb-editor-container>
+            <umb-editor-footer>
+                <umb-editor-footer-content-right>
+                    <button class="btn btn-success" ng-click="vm.save()" ng-disabled="!vm.showButton">Save</button>
+                </umb-editor-footer-content-right>
+            </umb-editor-footer>
+        </umb-editor-view>
+    </div>
+</div>
